@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'body-parsar',
+1 verbose cli   'morgan',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose install initial load of /Users/user/Documents/RefactorU/projects/6-4-Express-Scaffold/package.json
+5 verbose readDependencies loading dependencies from /Users/user/Documents/RefactorU/projects/6-4-Express-Scaffold/package.json
+6 silly cache add args [ 'body-parsar', null ]
+7 verbose cache add spec body-parsar
+8 silly cache add args [ 'morgan', null ]
+9 verbose cache add spec morgan
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'body-parsar',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'body-parsar',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: '*',
+10 silly cache add   type: 'range' }
+11 silly addNamed body-parsar@*
+12 verbose addNamed "*" is a valid semver range for body-parsar
+13 silly addNameRange { name: 'body-parsar', range: '*', hasData: false }
+14 silly mapToRegistry name body-parsar
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/body-parsar
+18 verbose addNameRange registry:https://registry.npmjs.org/body-parsar not in flight; fetching
+19 silly cache add parsed spec Result {
+19 silly cache add   raw: 'morgan',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'morgan',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: '*',
+19 silly cache add   type: 'range' }
+20 silly addNamed morgan@*
+21 verbose addNamed "*" is a valid semver range for morgan
+22 silly addNameRange { name: 'morgan', range: '*', hasData: false }
+23 silly mapToRegistry name morgan
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/morgan
+27 verbose addNameRange registry:https://registry.npmjs.org/morgan not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/body-parsar
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 9:21:27 AM
+31 verbose request id 39b392729cc8b9e4
+32 http request GET https://registry.npmjs.org/body-parsar
+33 verbose request uri https://registry.npmjs.org/morgan
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 9:21:27 AM
+36 verbose etag "9UHW8CA1KLRAYCNKWVU622PB6"
+37 http request GET https://registry.npmjs.org/morgan
+38 http 304 https://registry.npmjs.org/morgan
+39 verbose headers { date: 'Tue, 29 Mar 2016 15:21:27 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   etag: '"9UHW8CA1KLRAYCNKWVU622PB6"',
+39 verbose headers   age: '189',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-dfw1838-DFW',
+39 verbose headers   'x-cache': 'HIT',
+39 verbose headers   'x-cache-hits': '1',
+39 verbose headers   'x-timer': 'S1459264887.958620,VS0,VE0',
+39 verbose headers   vary: 'Accept' }
+40 silly get cb [ 304,
+40 silly get   { date: 'Tue, 29 Mar 2016 15:21:27 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: '"9UHW8CA1KLRAYCNKWVU622PB6"',
+40 silly get     age: '189',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-dfw1838-DFW',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1459264887.958620,VS0,VE0',
+40 silly get     vary: 'Accept' } ]
+41 verbose etag https://registry.npmjs.org/morgan from cache
+42 verbose get saving morgan to /Users/user/.npm/registry.npmjs.org/morgan/.cache.json
+43 silly addNameRange number 2 { name: 'morgan', range: '*', hasData: true }
+44 silly addNameRange versions [ 'morgan',
+44 silly addNameRange   [ '1.0.0',
+44 silly addNameRange     '1.0.1',
+44 silly addNameRange     '1.1.0',
+44 silly addNameRange     '1.1.1',
+44 silly addNameRange     '1.2.0',
+44 silly addNameRange     '1.2.1',
+44 silly addNameRange     '1.2.2',
+44 silly addNameRange     '1.2.3',
+44 silly addNameRange     '1.3.0',
+44 silly addNameRange     '1.3.1',
+44 silly addNameRange     '1.3.2',
+44 silly addNameRange     '1.4.0',
+44 silly addNameRange     '1.4.1',
+44 silly addNameRange     '1.5.0',
+44 silly addNameRange     '1.5.1',
+44 silly addNameRange     '1.5.2',
+44 silly addNameRange     '1.5.3',
+44 silly addNameRange     '1.6.0',
+44 silly addNameRange     '1.6.1',
+44 silly addNameRange     '1.7.0' ] ]
+45 silly addNamed morgan@1.7.0
+46 verbose addNamed "1.7.0" is a plain semver version for morgan
+47 silly cache afterAdd morgan@1.7.0
+48 verbose afterAdd /Users/user/.npm/morgan/1.7.0/package/package.json not in flight; writing
+49 verbose afterAdd /Users/user/.npm/morgan/1.7.0/package/package.json written
+50 http 404 https://registry.npmjs.org/body-parsar
+51 verbose headers { 'content-type': 'application/json',
+51 verbose headers   'cache-control': 'max-age=0',
+51 verbose headers   'content-length': '2',
+51 verbose headers   'accept-ranges': 'bytes',
+51 verbose headers   date: 'Tue, 29 Mar 2016 15:21:28 GMT',
+51 verbose headers   via: '1.1 varnish',
+51 verbose headers   age: '0',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'x-served-by': 'cache-dfw1840-DFW',
+51 verbose headers   'x-cache': 'MISS',
+51 verbose headers   'x-cache-hits': '0',
+51 verbose headers   'x-timer': 'S1459264887.923684,VS0,VE79' }
+52 silly get cb [ 404,
+52 silly get   { 'content-type': 'application/json',
+52 silly get     'cache-control': 'max-age=0',
+52 silly get     'content-length': '2',
+52 silly get     'accept-ranges': 'bytes',
+52 silly get     date: 'Tue, 29 Mar 2016 15:21:28 GMT',
+52 silly get     via: '1.1 varnish',
+52 silly get     age: '0',
+52 silly get     connection: 'keep-alive',
+52 silly get     'x-served-by': 'cache-dfw1840-DFW',
+52 silly get     'x-cache': 'MISS',
+52 silly get     'x-cache-hits': '0',
+52 silly get     'x-timer': 'S1459264887.923684,VS0,VE79' } ]
+53 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/body-parsar
+53 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+53 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+53 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+53 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+53 verbose stack     at emitTwo (events.js:87:13)
+53 verbose stack     at Request.emit (events.js:172:7)
+53 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+53 verbose stack     at emitOne (events.js:82:20)
+53 verbose stack     at Request.emit (events.js:169:7)
+53 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+54 verbose statusCode 404
+55 verbose pkgid body-parsar
+56 verbose cwd /Users/user/Documents/RefactorU/projects/6-4-Express-Scaffold
+57 error Darwin 15.3.0
+58 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "body-parsar" "morgan" "--save"
+59 error node v4.2.2
+60 error npm  v2.14.7
+61 error code E404
+62 error 404 Registry returned 404 for GET on https://registry.npmjs.org/body-parsar
+62 error 404
+62 error 404 'body-parsar' is not in the npm registry.
+62 error 404 You should bug the author to publish it (or use the name yourself!)
+62 error 404
+62 error 404 Note that you can also install from a
+62 error 404 tarball, folder, http url, or git url.
+63 verbose exit [ 1, true ]
